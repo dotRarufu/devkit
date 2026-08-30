@@ -9,6 +9,19 @@
 //     .child("statistics"),
 // );
 
+// garmentKeys.list.all();
+// ["garments", "list"]
+// garmentKeys.list.key("active");
+// ["garments", "list", "active"]
+// garmentKeys.detail.all();
+// ["garments", "detail"]
+// garmentKeys.detail.key("garment-123");
+// ["garments", "detail", "garment-123"]
+// garmentKeys.detail.history.all();
+// ["garments", "detail", "history"]
+// garmentKeys.detail.history.key("garment-123");
+// ["garments", "detail", "history", "garment-123"]
+
 type QueryKey = readonly unknown[];
 
 interface QueryNode {
